@@ -1,5 +1,7 @@
 ﻿
 
+using System;
+
 namespace HelloWorld
 {
     class Ejercicios
@@ -34,6 +36,99 @@ namespace HelloWorld
             }
         
         }
+        
+        public static void Ejercicio03()
+
+        {
+            int i = 0;
+            while(i < 100)
+
+            {
+                System.Console.WriteLine(i + i);
+                i++ ;
+            }
+
+
+        }
+
+        public static void Ejercicio04()
+
+        {
+
+            int i = 0;
+            while (i < 100)
+            {
+
+                System.Console.WriteLine(i * 3 + 1);
+                i++ ;
+            }
+        }
+        
+        public static void Ejercicio05()
+
+        {
+            int i = 0;
+            while (i < 100)
+
+            {
+                System.Console.WriteLine(i * i);
+                i++;
+
+
+            }
+
+        }
+        
+
+        public static void Ejercicio06()
+
+        {
+            int i = 0;
+            while (i < 100)
+
+            {
+                
+
+                if (Utils.IsEven(i))
+                {
+                    System.Console.WriteLine(-i);
+
+                }
+                else
+                {
+
+                    System.Console.WriteLine(i);
+                }
+                i++;
+            }
+
+     
+        
+        }
+   
+        public static void Ejercicio07()
+
+        {
+            int i = 0;
+            int a=1;
+            int aa=0;
+
+           while (i<100)
+            {
+
+                System.Console.WriteLine(a+aa);
+                int aux = aa;
+                aa = a;
+                a = a + aux;
+
+
+                i++;
+            }
+
+
+
+        }
+    
     
     }
 

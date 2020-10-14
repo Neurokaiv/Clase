@@ -11,7 +11,19 @@ namespace HelloWorld
 
         static void Main(string[] args)
         {
-            Ejercicios.Ejercicio02();
+
+
+            Ejercicios.Ejercicio06();
+            
+            
+            /* Ejercicios.Ejercicio05();
+
+
+           /* Ejercicios.Ejercicio04();
+
+           /* Ejercicios.Ejercicio03();
+
+            /* Ejercicios.Ejercicio02();
 
 
             /*
