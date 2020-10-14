@@ -21,5 +21,20 @@ namespace HelloWorld
             }
 
         }
+        public static void Ejercicio02()
+
+        {
+            int i = 0;
+            while (i < 100)
+            {
+                System.Console.WriteLine(i);
+                i++;
+
+
+            }
+        
+        }
+    
     }
+
 }

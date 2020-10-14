@@ -11,7 +11,10 @@ namespace HelloWorld
 
         static void Main(string[] args)
         {
+            Ejercicios.Ejercicio02();
 
+
+            /*
             double len2D;
             len2D = Geometry.GetVector2DLength(1.0, 1.0);
 
@@ -54,7 +57,7 @@ namespace HelloWorld
 
 
 
-
+            */
 
 
 
